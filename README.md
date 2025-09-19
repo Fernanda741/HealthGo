@@ -1,4 +1,4 @@
-## HealthGo - Aplicação completa (versão simples frontend)
+## HealthGo - Aplicação completa
 
 Esta entrega contém duas pastas: `backend` (Flask + SQLite) e `frontend` (React + Vite + Bootstrap).
 O frontend consome a API do backend para upload de CSV, listagem de pacientes, consulta por paciente
