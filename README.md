@@ -22,7 +22,6 @@ docker-compose up --build
 - `GET /patients/<paciente_id>?start=HH:MM:SS&end=HH:MM:SS` -> Dados do paciente (filtrados opcionalmente)
 - `GET /download/<paciente_id>?start=&end=` -> Retorna CSV (filtrado se start/end fornecidos)
 
-Observe que o arquivo CSV enviado deve conter apenas um `paciente_id` por arquivo (conforme regra do teste).
 
 ## Observações
 - O projeto usa SQLite (arquivo `healthgo.db` criado pelo backend).
